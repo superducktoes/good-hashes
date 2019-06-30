@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik+Mono+One);
+
 body {
         background-color: #fbfbff;
 }
@@ -5,9 +7,22 @@ body {
 .header-content{
     background-color: #01baef;
     text-align: center;
-    padding: 10px;
-    font-family: copperplate;
-    color: #040f16;
+    padding: 5px;
+    color: black;
+    font-family: "Rubik Mono One";
+    color: black;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+}
+
+.header-content h1 {
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .main-content {
@@ -26,18 +41,16 @@ ul {
 }
 
 
-.footer {
-    background-color: #01baef;
-    text-align: center;
-    padding: 10px;
-} 
-
 .menu-content {
     background-color: #01baef;
     padding: 20px;
     font-family: copperplate;
     color: #040f16;
     text-align: center;
+    box-shadow: 0px 5px #c6d9ec;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
 }
 
 .menu-content a {
